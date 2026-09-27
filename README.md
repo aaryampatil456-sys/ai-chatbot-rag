@@ -8,12 +8,14 @@ A chatbot that answers questions using Retrieval-Augmented Generation (RAG) — 
 - Reduces hallucination by grounding responses in real source material
 - Simple chat interface to ask questions
 
-## Tech Stack
+## Tech Stack## Tech Stack
 
 - Python
-- [Framework — Streamlit]
-- [Vector DB - FAISS]
-- [LLM/API — e.g. OpenAI, Hugging Face]
+- Streamlit
+- LangChain
+- FAISS (vector store)
+- HuggingFace Embeddings (`sentence-transformers/all-MiniLM-L6-v2`)
+- PyPDF (for loading PDF documents)
 
 ## How It Works
 
